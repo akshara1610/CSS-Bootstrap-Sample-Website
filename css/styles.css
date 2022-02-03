@@ -1,0 +1,226 @@
+/* Title Section */
+#title
+{
+    background-color: #FC4F4F;
+    
+}
+
+h1
+{
+    font-family: cursive;
+    font-size: 3rem;
+    line-height: 2 !important;
+    font-weight: bolder !important;
+    width: 70%;
+    color: white;
+    
+}
+
+.container-fluid
+{
+    padding-top: 3% !important;
+    padding-bottom: 5% !important;
+    padding-right: 15% !important;
+    padding-left: 15% !important;
+    
+}
+
+/* Navigation Bar */
+.navbar
+{
+    padding-bottom: 4.5rem !important;
+}
+
+.navbar-brand
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem !important;
+    
+   
+    
+}
+
+.nav-item
+{
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 18px !important;
+    padding-left: 18px !important;
+    font-size: 1.25rem !important;
+   
+}
+
+/* Title Section */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+    font-family: cursive;
+}
+
+.title-img
+{
+    /* width: 60% ; */
+    transform: rotate(20deg);
+    position:absolute;
+    width: 300px;
+    margin-left: 10% !important;
+    
+    
+    
+}
+
+/* Features Section */
+.features
+{
+    /* margin: 10% auto;
+    width: 50%; */
+    font-family: cursive;
+    text-align: center;
+    padding:4.5% !important;
+    
+}
+
+#features
+{
+    background-color: white;
+    
+    padding: 7% 15% !important;
+    position:relative;
+}
+
+.icons
+{
+    
+    color: #FC4F4F;
+    margin-bottom: 40px;
+    
+}
+
+h3
+{
+    font-size: 1.5rem !important;
+}
+
+p
+{
+    color: gray;
+}
+
+.icons:hover
+{
+    color:#EDCDBB;
+}
+
+/* Testimonials Section */
+#testimonials
+{
+    /* padding: 7% 15% !important; */
+    text-align: center;
+    background-color:#FC4F4F ;
+    color:white
+}
+
+h2
+{
+    font-family: cursive;
+    font-size: 2rem;
+    line-height: 2 !important;
+    font-weight: bolder !important;
+   
+}
+
+.testimonial-image
+{
+    border-radius: 100% !important;
+    width: 10% !important;
+    margin: 20px !important;
+}
+
+#press
+{
+    background-color:#FC4F4F ;
+    text-align: center;
+    padding-bottom: 3%; 
+}
+
+.press-logo
+{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+    padding: 7% 15% !important;
+}
+
+/* Pricing Section */
+.card-group
+{
+    display:block !important;
+}
+
+#pricing
+{
+    padding: 100px !important;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding: 3% 2% !important;
+}
+
+/* Downloading Section */
+#cta
+{
+    background-color:#FC4F4F ;
+    padding: 4.5rem;
+    color: white;
+    font-family:cursive ;
+    text-align: center;
+    
+
+}
+
+/* Footer Section */
+#footer
+  {
+      background-color:white ;
+      
+      height: 100px;
+      padding-top: 20px !important;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      margin-bottom: 0;
+  }
+
+  .footer-para
+  {
+      margin-bottom: 10px !important;
+      font-size: small;
+
+  }
+
+  .icons-footer
+  {
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      margin-top: 1rem !important;
+  }
+
+/* Media Breakpoint   */
+@media (max-width: 1028px)
+{
+    .title-img
+    {
+        position:static;
+        transform: rotate(0);
+    }
+
+    #title
+    {
+        text-align: center;
+    }
+}
+
+
